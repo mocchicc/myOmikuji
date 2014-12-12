@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         
         // result[乱数] を resultLabel に表示
         
+        self.resultLabel.text = results[Int(random)]
+        
     }
     
     
