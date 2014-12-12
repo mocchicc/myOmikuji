@@ -10,6 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBAction func getOmikuji(sender: AnyObject) {
+        // 占うよ! ボタンを押したら実行される関数
+        // 配列におみくじの結果を用意
+        let results = [
+                "大吉",
+                "吉",
+                "中吉",
+                "凶"
+        ]
+        //乱数を生成
+        
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
