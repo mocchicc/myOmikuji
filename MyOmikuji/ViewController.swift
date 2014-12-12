@@ -31,6 +31,15 @@ class ViewController: UIViewController {
         
         let random = arc4random_uniform(UInt32(results.count))
         
+        // 大吉の時に赤文字に表示する
+        
+        if random == 0 {
+            self.resultLabel.textColor = UIColor.redColor()
+        } else {
+            self.resultLabel.textColor = UIColor.blackColor()
+        }
+        
+        
         // result[乱数] を resultLabel に表示
         
         self.resultLabel.text = results[Int(random)]
