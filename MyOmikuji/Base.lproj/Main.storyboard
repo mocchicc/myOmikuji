@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="あなたの運勢は？" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2s-Cv-9dF">
-                                <rect key="frame" x="232" y="191" width="136" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたの運勢は？" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2s-Cv-9dF">
+                                <rect key="frame" x="232" y="192" width="136" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,9 +43,11 @@
                             <constraint firstItem="6ts-Sy-cFt" firstAttribute="top" secondItem="g2s-Cv-9dF" secondAttribute="bottom" constant="50" id="1Kk-Qe-xtS"/>
                             <constraint firstAttribute="centerX" secondItem="DeH-aH-yUJ" secondAttribute="centerX" id="Jgj-Ri-bz0"/>
                             <constraint firstItem="DeH-aH-yUJ" firstAttribute="top" secondItem="6ts-Sy-cFt" secondAttribute="bottom" constant="50" id="M4Y-CV-hCG"/>
+                            <constraint firstAttribute="centerX" secondItem="g2s-Cv-9dF" secondAttribute="centerX" id="NQf-rK-xOM"/>
                             <constraint firstAttribute="centerX" secondItem="g2s-Cv-9dF" secondAttribute="centerX" id="PZP-R0-PjN"/>
                             <constraint firstAttribute="centerX" secondItem="6ts-Sy-cFt" secondAttribute="centerX" id="fdE-nh-Vxu"/>
                             <constraint firstAttribute="centerY" secondItem="6ts-Sy-cFt" secondAttribute="centerY" id="jNN-cW-Yco"/>
+                            <constraint firstItem="6ts-Sy-cFt" firstAttribute="top" secondItem="g2s-Cv-9dF" secondAttribute="bottom" constant="50" id="pbr-wO-Uzf"/>
                         </constraints>
                     </view>
                     <connections>
